@@ -1,0 +1,1 @@
+#define bufAlign(ptr, align)    ((ptr + (align - 1)) & ~(align - 1))
